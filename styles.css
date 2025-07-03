@@ -8,6 +8,8 @@ body {
   color: #333;
 }
 
+
+
 header {
   background-color: #20232a;
   color: white;
@@ -240,4 +242,42 @@ h1, h2 {
   box-shadow: 0 6px 20px rgba(58, 71, 213, 0.8);
   border-color: #00d2ff;
   z-index: 1;
+}
+
+.menu-desplegable {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-contenido {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 160px;
+}
+
+.menu-contenido a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-contenido a:hover {
+  background-color: #f1f1f1;
+}
+
+.menu-desplegable:hover .menu-contenido {
+  display: block;
 }

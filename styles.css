@@ -143,14 +143,6 @@ h1, h2 {
   cursor: pointer;
 }
 
-body {
-  /* Fondo con patrón sutil de balón de fútbol en baja opacidad */
-  background: #f7f7f7 url('https://cdn-icons-png.flaticon.com/512/3031/3031206.png') repeat;
-  background-size: 80px 80px;
-  background-position: center;
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
 
 #futbol-fondo {
   position: fixed;
@@ -187,7 +179,6 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   font-weight: 700;
-  margin-left: 847px;
   font-size: 1.6rem;
   margin-bottom: 1rem;
   user-select: none;

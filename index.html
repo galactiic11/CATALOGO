@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda de Camisetas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<canvas id="futbol-fondo"></canvas>
+
+  <header>
+    <h1>CATALOGO CAMISETAS</h1>
+  </header>
+
+  <!-- Secciones -->
+  <section class="seccion" id="fan">
+    <h2 class="categoria-titulo">Camisetas Fan - 20€</h2>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="fan-1">1-25</button>
+      <button class="tab-button" data-tab="fan-2">26-50</button>
+      <button class="tab-button" data-tab="fan-3">51-75</button>
+      <button class="tab-button" data-tab="fan-4">76-100</button>
+    </div>
+    <div class="tab-content active" id="tab-fan-1"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-fan-2"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-fan-3"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-fan-4"><div class="camisetas-grid"></div></div>
+  </section>
+
+  <section class="seccion" id="player">
+    <h2 class="categoria-titulo">Camisetas Player - 22€</h2>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="player-1">1-25</button>
+      <button class="tab-button" data-tab="player-2">26-50</button>
+      <button class="tab-button" data-tab="player-3">51-75</button>
+      <button class="tab-button" data-tab="player-4">76-100</button>
+    </div>
+    <div class="tab-content active" id="tab-player-1"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-player-2"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-player-3"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-player-4"><div class="camisetas-grid"></div></div>
+  </section>
+
+  <section class="seccion" id="retro">
+    <h2 class="categoria-titulo">Camisetas Retro - 25€</h2>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="retro-1">1-25</button>
+      <button class="tab-button" data-tab="retro-2">26-50</button>
+      
+    </div>
+    <div class="tab-content active" id="tab-retro-1"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-retro-2"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-retro-3"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-retro-4"><div class="camisetas-grid"></div></div>
+  </section>
+
+  <section class="seccion" id="ninos">
+    <h2 class="categoria-titulo">Camisetas Niños - 25€</h2>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="ninos-1">1-25</button>
+      <button class="tab-button" data-tab="ninos-2">26-50</button>
+      <button class="tab-button" data-tab="ninos-3">51-75</button>
+      
+    </div>
+    <div class="tab-content active" id="tab-ninos-1"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-ninos-2"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-ninos-3"><div class="camisetas-grid"></div></div>
+    <div class="tab-content" id="tab-ninos-4"><div class="camisetas-grid"></div></div>
+  </section>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>

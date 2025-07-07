@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         boton.textContent = 'ME INTERESA';
         boton.className = 'btn-interesa btn-animate';
         boton.addEventListener('click', () => {
-          window.open('https://instagram.com/juan_antoniio11', '_blank');
+          window.open('https://instagram.com/sportkit__', '_blank');
         });
 
         div.appendChild(boton);
